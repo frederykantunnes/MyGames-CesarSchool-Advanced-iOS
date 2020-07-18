@@ -75,10 +75,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2A044324C396B700613DEC /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3E52731824C389E40046BC69 /* View */,
+				3E52731724C3898E0046BC69 /* Controller */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		3E2A044424C396D200613DEC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB5B2C24C248DE003CFD58 /* LoginLandscape.storyboard */,
+				3EDB5B2A24C248C1003CFD58 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3E2A044524C396F100613DEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDE5D024C3658A0042F2AB /* GameCollectionViewCell.swift */,
+				ED8AA22324701B9C00287D33 /* GameTableViewCell.swift */,
+				3EC88E5224807C4D001FF7B4 /* PlataformaTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		3E52731724C3898E0046BC69 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3E52731924C38B290046BC69 /* Cells */,
+				3E2A044524C396F100613DEC /* Cells */,
 				3EDB5B2E24C28A56003CFD58 /* AutenticationViewController.swift */,
 				ED8AA21B2470176B00287D33 /* GamesTableViewController.swift */,
 				ED8AA21F247018BF00287D33 /* GameViewController.swift */,
@@ -96,7 +124,7 @@
 		3E52731824C389E40046BC69 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3E52731C24C38C0B0046BC69 /* Login */,
+				3E2A044424C396D200613DEC /* Login */,
 				ED8AA212246F559700287D33 /* LaunchScreen.storyboard */,
 				3EDB5B1724BE7331003CFD58 /* Console.storyboard */,
 				3EDB5B3524C35184003CFD58 /* GamesCollection.storyboard */,
@@ -105,34 +133,6 @@
 				ED8AA20A246F559500287D33 /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		3E52731924C38B290046BC69 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE5D024C3658A0042F2AB /* GameCollectionViewCell.swift */,
-				ED8AA22324701B9C00287D33 /* GameTableViewCell.swift */,
-				3EC88E5224807C4D001FF7B4 /* PlataformaTableViewCell.swift */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
-		3E52731A24C38B8F0046BC69 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				3E52731824C389E40046BC69 /* View */,
-				3E52731724C3898E0046BC69 /* Controller */,
-			);
-			name = Feature;
-			sourceTree = "<group>";
-		};
-		3E52731C24C38C0B0046BC69 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				3EDB5B2C24C248DE003CFD58 /* LoginLandscape.storyboard */,
-				3EDB5B2A24C248C1003CFD58 /* Login.storyboard */,
-			);
-			name = Login;
 			sourceTree = "<group>";
 		};
 		ED8AA1F8246F559500287D33 = {
@@ -154,7 +154,7 @@
 		ED8AA203246F559500287D33 /* MyGames */ = {
 			isa = PBXGroup;
 			children = (
-				3E52731A24C38B8F0046BC69 /* Feature */,
+				3E2A044324C396B700613DEC /* Feature */,
 				ED8AA204246F559500287D33 /* AppDelegate.swift */,
 				ED8AA206246F559500287D33 /* SceneDelegate.swift */,
 				ED8AA210246F559700287D33 /* Assets.xcassets */,
